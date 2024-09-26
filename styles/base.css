@@ -1,6 +1,7 @@
 /*https://coolors.co/41d3bd-100007-6b6570-ffbf00-f21b3f*/
 
 body {
+    max-width: 1700px;
     font-family:  var(--paragraph-font);
     background: var(--accent2-color);
     font-size: 17px;
