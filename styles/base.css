@@ -2,7 +2,7 @@
 
 body {
     max-width: 1700px;
-    font-family:  var(--paragraph-font);
+    font-family: "Ubuntu", sans-serif;
     background: var(--accent2-color);
     font-size: 17px;
 }
@@ -13,9 +13,9 @@ body {
     --accent2-color: #f7e4;
     --accent3-color: #ffbf00;
 
-    --heading-font: 'Segoe UI', serif;
-    --paragraph-font: 'Segoe UI', serif;
-    --table-font: 'Arial', serif;
+    --heading-font: "Ubuntu", serif;
+    --paragraph-font: "Ubuntu", serif;
+    --table-font: "Ubuntu", serif;
 
     --nav-background-color: #011627;
     --nav-link-color: #fd3efd;
