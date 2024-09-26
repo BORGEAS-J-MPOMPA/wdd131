@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap');
+/*https://coolors.co/41d3bd-100007-6b6570-ffbf00-f21b3f*/
+
+body {
+    font-family:  var(--paragraph-font);
+    background: var(--accent2-color);
+    font-size: 17px;
+}
+:root {
+    --primary-color: #100007;
+    --secondary-color: #41ead4;
+    --accent1-color: #3E333C;
+    --accent2-color: #f7e4;
+    --accent3-color: #ffbf00;
+
+    --heading-font: 'Segoe UI', serif;
+    --paragraph-font: 'Segoe UI', serif;
+    --table-font: 'Arial', serif;
+
+    --nav-background-color: #011627;
+    --nav-link-color: #fd3efd;
+    --nav-hover-link-color: #41ead4;
+    --nav-hover-background-color: #f7e4;
+
+}
+header {
+    color: var(--accent3-color);
+    background-color: var(--accent1-color);
+    border: solid 2px var(--nav-background-color);
+}
+header h1 {
+    display: flex;
+    justify-content: center;
+}
+header nav {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header nav a {
+    color: var(--nav-background-color);
+    text-decoration: none;
+}
+main {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    /*border: solid 2px var(--nav-background-color);*/
+}
+main img {
+    margin: 10px 4px 0 0;
+    border: solid 1px var(--nav-background-color);
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+.photo_1 img {
+    width: 350px;
+    float: right;
+    margin: 10px 4px 10px 0;;
+}
+.photo_2 img {
+    width: 150px;
+    height: 100px;
+    float: left;
+    margin: 10px 0 0 10px;
+}
+section {
+    margin: 10px;
+}
+section h4 {
+    display: flex;
+    justify-content: center;
+    background-color: var(--nav-hover-link-color);
+    height: 45px;
+}
+section h3 {
+    display: flex;
+    justify-content: center;
+}
+ section .decoration {
+    position: relative;
+    border: solid 2px var(--nav-hover-link-color);
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    top: -2px;
+    background-color: var(--nav-hover-link-color);
+}
+section ul li a {
+    text-decoration: none;
+    color: #011627;
+}
+header nav a:hover, ul li a:hover {
+    transition-duration: 1s;
+    color: var(--nav-hover-link-color);
+    text-decoration: underline;
+}
+
+
+ .card p, ul {
+    margin: 7px;
+}
+.card {
+    border: solid 3px var(--nav-background-color);
+    border-radius: 10px;
+}
+hr {
+    background-color: var(--nav-hover-link-color);
+    position: relative;
+    width: 400px;
+    height: 1px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: var(--accent1-color);
+    border: solid 2px var(--nav-background-color);
+}
+
+footer div {
+    display: inline;
+    justify-content: center;
+}
