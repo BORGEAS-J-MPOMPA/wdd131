@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap');
 /*https://coolors.co/41d3bd-100007-6b6570-ffbf00-f21b3f*/
 
 body {
@@ -70,7 +69,7 @@ main img {
 section {
     margin: 10px;
 }
-section h4 {
+section h4, section h2 {
     display: flex;
     justify-content: center;
     background-color: var(--nav-hover-link-color);
